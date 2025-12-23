@@ -1,0 +1,42 @@
+[project]
+name = "marcsrover"
+version = "0.1.0"
+description = "Car and Host softwares for the MARCS rover from CentraleSupélec P2026."
+readme = "README.md"
+authors = [{ name = "Enzo Le Van", email = "dev@enzo-le-van.fr" }]
+requires-python = "==3.10.15"
+dependencies = [
+    "eclipse-zenoh==1.0.3",
+    "numpy==2.1.3",
+    "opencv-python==4.10.0.84",
+    "pycdr2==1.0.0",
+    "ruff==0.8.0",
+]
+
+[project.scripts]
+host = "marcsrover:main_host"
+car = "marcsrover:main_car"
+
+monitor = "marcsrover:inner_monitor"
+joystick-controller = "marcsrover:inner_joystick_controller"
+keyboard-controller = "marcsrover:inner_keyboard_controller"
+opencv-camera = "marcsrover:inner_opencv_camera"
+lidar = "marcsrover:inner_lidar"
+realsense = "marcsrover:inner_realsense"
+rover = "marcsrover:inner_rover"
+imu = "marcsrover:inner_imu"
+auto-pilot = "marcsrover:inner_auto_pilot"
+
+[project.optional-dependencies]
+host = ["dearpygui==2.0.0", "pygame==2.6.1", "pynput>=1.7.7"]
+car = [
+    "dynamixel-sdk==3.7.31",
+    "pyrealsense2==2.55.1.6486",
+    "pyrplidar==0.1.2",
+    "pyserial==3.5",
+    "smbus>=1.1.post2",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
