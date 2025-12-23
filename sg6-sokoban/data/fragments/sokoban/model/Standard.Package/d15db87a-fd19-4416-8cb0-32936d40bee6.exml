@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="moveables" version="4">
+  <OBJECT>
+    <ID name="moveables" mc="Standard.Package" uid="d15db87a-fd19-4416-8cb0-32936d40bee6"/>
+    <PID name="entities" mc="Standard.Package" uid="4a87cbbc-7f7f-49be-aad5-1b72e2415c2f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[moveables]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Box" mc="Standard.Class" uid="5dfc2b93-7fb7-4e25-8865-c1d346e89e91"/>
+        <COMPID name="Player" mc="Standard.Class" uid="2555ce4a-31a1-43d5-bd8e-9d300e3be5e1"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

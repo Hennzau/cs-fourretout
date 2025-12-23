@@ -1,0 +1,7 @@
+#Mon Jan 20 13:20:46 CET 2025
+org.modelio.app.module.propertytab.GPart\ [id\='JavaDesigner',\ version\='5.3.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_.org.modelio.development.perspective.parentId=app.ui.ext_com.partstack.bottom
+org.modelio.app.module.propertytab.GPart\ [id\='JavaDesigner',\ version\='5.3.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_.org.modelio.app.ui.model.perspective.parentId=org.modelio.app.bottom.parts
+org.modelio.app.module.propertytab.GPart\ [id\='JavaDesigner',\ version\='5.3.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_.org.modelio.full.perspective.parentId=app.ui.ext_com.partstack.bottom
+org.modelio.app.diagram.editor.OpenedDiagrams0='Sokoban Entities' {81fdfee4-46c8-40fb-a216-ad4527d88a09} Standard.ClassDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams1='Sokoban Sequences' {2bbe4592-b1a0-4727-8198-8bb680239271} Standard.SequenceDiagram
+org.modelio.app.module.propertytab.GPart\ [id\='JavaDesigner',\ version\='5.3.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_.org.modelio.diagram.perspective.parentId=app.ui.ext_com.partstack.right

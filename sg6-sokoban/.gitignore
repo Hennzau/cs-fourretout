@@ -1,0 +1,45 @@
+# Java
+*.class          # Fichiers de bytecode Java compilés
+*.jar            # Fichiers JAR générés
+*.war            # Fichiers WAR générés
+*.ear            # Fichiers EAR générés
+*.db             # Fichiers de bases de données locaux
+
+# Eclipse
+# Répertoires de configuration d'Eclipse
+/.settings/
+/.project
+/.classpath
+/.idea/
+
+# Eclipse metadata (fichiers qui ne sont pas nécessaires à partager)
+bin/
+/tmp/
+/.out/
+
+# Modelio
+# Fichiers et dossiers générés par Modelio
+*.uml
+*.modelio
+*.mdzip
+*.mdprofile
+*.mdl
+*.xmi
+.modelio/
+
+# Fichiers de log
+*.log
+
+# Fichiers temporaires
+*.tmp
+*.bak
+*.swp
+
+# OS files (cachés par défaut sur certains systèmes d'exploitation)
+.DS_Store         # macOS
+Thumbs.db         # Windows
+
+# Java build folders
+target/           # Dossier généré par Maven, si utilisé
+build/            # Dossier généré par Gradle ou d'autres outils
+

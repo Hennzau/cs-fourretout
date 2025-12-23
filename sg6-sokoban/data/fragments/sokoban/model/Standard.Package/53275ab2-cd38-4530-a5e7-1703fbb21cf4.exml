@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="hmi" version="4">
+  <OBJECT>
+    <ID name="hmi" mc="Standard.Package" uid="53275ab2-cd38-4530-a5e7-1703fbb21cf4"/>
+    <PID name="sokoban" mc="Standard.Package" uid="bf66e19c-aae1-4eaa-8cb0-02db338c30e8"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[hmi]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Console" mc="Standard.Class" uid="2b78cfa7-5c54-4351-978d-0c670bd39bb3"/>
+        <COMPID name="Swing" mc="Standard.Class" uid="1292c2df-27b8-4e25-b5de-bf49bab222aa"/>
+        <COMPID name="console" mc="Standard.Package" uid="16da69bf-9b0a-4b4f-b2ab-ed43ca1adc92"/>
+        <COMPID name="levels" mc="Standard.Package" uid="c5462c09-0c47-4598-b29b-aa82aaed0a43"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

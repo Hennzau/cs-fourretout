@@ -1,0 +1,343 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Console" version="4">
+  <OBJECT>
+    <ID name="Console" mc="Standard.Class" uid="2b78cfa7-5c54-4351-978d-0c670bd39bb3"/>
+    <PID name="hmi" mc="Standard.Package" uid="53275ab2-cd38-4530-a5e7-1703fbb21cf4"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Console]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedOperation">
+        <OBJECT>
+          <ID name="main" mc="Standard.Operation" uid="54c064d1-8800-4cd8-a9bb-2aedfacab191"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[main]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="IO">
+              <OBJECT>
+                <ID name="args" mc="Standard.Parameter" uid="de81b3cd-f5ae-468a-9fe6-a9a6f213cc59"/>
+                <ATTRIBUTES>
+                  <ATT name="ParameterPassing">Inout</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
+                  <ATT name="TypeConstraint"></ATT>
+                  <ATT name="DefaultValue"></ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="IsException">false</ATT>
+                  <ATT name="IsStream">false</ATT>
+                  <ATT name="Effect">ReadEffect</ATT>
+                  <ATT name="Name"><![CDATA[args]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Tag">
+                    <OBJECT>
+                      <ID name="" mc="Infrastructure.TaggedValue" uid="732afba1-1802-4d60-80d0-e05d6a40af99"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="Actual">
+                          <OBJECT>
+                            <ID name="" mc="Infrastructure.TagParameter" uid="8a621093-33e8-437a-8120-29715555deb7"/>
+                            <ATTRIBUTES>
+                              <ATT name="Value"><![CDATA[Array]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES></DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                        <LINK relation="Definition">
+                          <FOREIGNID name="type" mc="Infrastructure.TagType" uid="00000000-0000-3767-0000-000000000000"/>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="" mc="Infrastructure.TaggedValue" uid="2ca0ac22-8485-4f0c-9979-9b0391776d3d"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="Actual">
+                          <OBJECT>
+                            <ID name="" mc="Infrastructure.TagParameter" uid="1d31d086-c213-4296-b669-07922a4a4230"/>
+                            <ATTRIBUTES>
+                              <ATT name="Value"><![CDATA[String]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES></DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                        <LINK relation="Definition">
+                          <FOREIGNID name="JavaTypeExpr" mc="Infrastructure.TagType" uid="00380080-0000-01a4-0000-000000000000"/>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="0cd39931-5d86-4ddb-b320-4f06802f829f"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[Controller controller;
+
+try {
+    controller = new Controller(Level1.buildFromString());
+} catch (Exception e) {
+    e.printStackTrace();
+    return;
+}
+
+Scanner scanner = new Scanner(System.in);
+
+int levelChoice = 0;
+while (levelChoice < 1 || levelChoice > 5) {
+    System.out.println("Select a level between 1 and 5 (both included):");
+    try {
+        levelChoice = Integer.parseInt(scanner.nextLine());
+    } catch (NumberFormatException e) {
+        System.out.println("Invalid entry. Select a level between 1 and 5 (both included):");
+    }
+}
+
+try {
+    switch (levelChoice) {
+    case 1:
+        controller.setLevel(Level1.buildFromString());
+        break;
+    case 2:
+        controller.setLevel(Level2.buildFromString());
+        break;
+    case 3:
+        controller.setLevel(Level3.buildFromString());
+        break;
+    case 4:
+        controller.setLevel(Level4.buildFromString());
+        break;
+    case 5:
+        controller.setLevel(Level5.buildFromString());
+        break;
+    default:
+        scanner.close();
+        throw new IllegalArgumentException("This should not happen... But levelChoice is too high.");
+    }
+} catch (Exception e) {
+    e.printStackTrace();
+
+    scanner.close();
+    return;
+}
+
+String actions;
+System.out.println(
+        "Choose (udrl for up, down, right, left) or 'quit' to leave or 'help' to see solution from start:");
+while (true) {
+    System.out.println(LevelView.view(controller.getLevel()));
+    if (controller.checkVictory()) {
+        System.out.println("You won!");
+        break;
+    }
+
+    System.out.print("Actions: ");
+    actions = scanner.nextLine();
+
+    if (actions.equalsIgnoreCase("quit")) {
+        System.out.println("Thanks for playing!");
+        break;
+    }
+
+    if (actions.equalsIgnoreCase("help")) {
+        switch (levelChoice) {
+        case 1:
+            System.out.println("rrurd");
+            break;
+        case 2:
+            System.out.println("dldlruruulllddduuurrrddllddluuudrrurul");
+            break;
+        default:
+            System.out.println("No solution for this level...");
+            break;
+        }
+        continue;
+    }
+
+    for (char action : actions.toCharArray()) {
+        switch (action) {
+        case 'u':
+            controller.moveUp();
+            break;
+        case 'd':
+            controller.moveDown();
+            break;
+        case 'r':
+            controller.moveRight();
+            break;
+        case 'l':
+            controller.moveLeft();
+            break;
+        default:
+            System.out.println("Unknown action: " + action);
+        }
+    }
+}
+
+scanner.close();
+]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="JavaCode" mc="Infrastructure.NoteType" uid="003800a8-0000-018e-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedImport">
+        <OBJECT>
+          <ID name="" mc="Standard.ElementImport" uid="a9fe7c1b-0ebc-4876-81c1-c0a4108f6a94"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="ImportedElement">
+              <ID name="Controller" mc="Standard.Class" uid="177c5909-904b-431c-960d-95afbfe8e76b"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.ElementImport" uid="42492ec4-d4a3-4c66-985a-9a46a820c0c5"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="ImportedElement">
+              <ID name="LevelView" mc="Standard.Class" uid="f2242ce6-be2e-44ca-9fca-1e24b850a21a"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.ElementImport" uid="7cee8e53-03f9-4117-935e-b9512b9ecb89"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="ImportedElement">
+              <ID name="Level5" mc="Standard.Class" uid="3a0a6a71-4f6f-4361-b0ef-235e4ab21a3d"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.ElementImport" uid="8c373373-344c-4694-9524-c3f849cefd91"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="ImportedElement">
+              <ID name="Level1" mc="Standard.Class" uid="f884daef-c90a-428c-b865-5794c26eac75"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.ElementImport" uid="9bfc2a69-67c2-4a95-aeb9-837819b97755"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="ImportedElement">
+              <ID name="Level2" mc="Standard.Class" uid="4193070e-7c3b-4a8c-9025-a11e877c385f"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.ElementImport" uid="53d6f8e9-ffe8-4072-b055-dd99b3589112"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="ImportedElement">
+              <ID name="Level3" mc="Standard.Class" uid="159dbd60-cb3d-4355-9843-a222c13a9238"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.ElementImport" uid="2ba60d08-6a0a-4282-8659-a4fcf924d5f0"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="ImportedElement">
+              <ID name="Level4" mc="Standard.Class" uid="1475f1d3-6449-46dc-9834-75a5d46df13b"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaClass" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Tag">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.TaggedValue" uid="f8d63952-5f3c-41fe-b59f-13075249a80a"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Actual">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.TagParameter" uid="8d791206-53a8-48a1-b70a-6f1bbe4761ab"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[java.util.Scanner]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Definition">
+              <FOREIGNID name="JavaImport" mc="Infrastructure.TagType" uid="003800a8-0000-0155-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

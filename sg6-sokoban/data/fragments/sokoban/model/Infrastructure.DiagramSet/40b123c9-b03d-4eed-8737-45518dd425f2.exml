@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="sokoban" version="4">
+  <OBJECT>
+    <ID name="sokoban" mc="Infrastructure.DiagramSet" uid="40b123c9-b03d-4eed-8737-45518dd425f2"/>
+    <PID name="sokoban" mc="Standard.Project" uid="706c01d9-f53a-407e-a8b3-47705910b291"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[sokoban]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>
