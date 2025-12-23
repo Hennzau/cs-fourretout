@@ -1,0 +1,126 @@
+/home/enzo/Documents/risc-cpu/src/alu.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/enzo/Documents/risc-cpu/src/alu.vhd
+Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity alu
+-- Compiling architecture Behavioral of alu
+-- Compiling entity alu_tb
+-- Compiling architecture Behavioral of alu_tb
+-- Loading entity alu
+
+} {} {}} /home/enzo/Documents/risc-cpu/src/dig2dec.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/enzo/Documents/risc-cpu/src/dig2dec.vhd
+Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity dig2dec
+-- Compiling architecture Behavioral of dig2dec
+
+} {} {}} /home/enzo/Documents/risc-cpu/src/flip_flop.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/enzo/Documents/risc-cpu/src/flip_flop.vhd
+Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity flipflop_rw
+-- Compiling architecture Behavioral of flipflop_rw
+
+} {} {}} /home/enzo/Documents/risc-cpu/src/status.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/enzo/Documents/risc-cpu/src/status.vhd
+Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity status
+-- Compiling architecture status_a of status
+
+} {} {}} /home/enzo/Documents/risc-cpu/src/reg.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/enzo/Documents/risc-cpu/src/reg.vhd
+Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity reg
+-- Compiling architecture Behavioral of reg
+-- Compiling entity reg_tb
+-- Compiling architecture Behavioral of reg_tb
+-- Loading entity reg
+
+} {} {}} /home/enzo/Documents/risc-cpu/src/rom.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/enzo/Documents/risc-cpu/src/rom.vhd
+Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity rom
+-- Compiling architecture Behavioral of rom
+
+} {} {}} /home/enzo/Documents/risc-cpu/src/ram.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/enzo/Documents/risc-cpu/src/ram.vhd
+Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ram
+-- Compiling architecture Behavioral of ram
+
+} {} {}} /home/enzo/Documents/risc-cpu/src/pcounter.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/enzo/Documents/risc-cpu/src/pcounter.vhd
+Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity pcounter
+-- Compiling architecture Behavioral of pcounter
+-- Compiling entity pcounter_tb
+-- Compiling architecture Behavioral of pcounter_tb
+-- Loading entity pcounter
+
+} {} {}} /home/enzo/Documents/risc-cpu/src/screen.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/enzo/Documents/risc-cpu/src/screen.vhd
+Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity screen
+-- Compiling architecture Behavioral of screen
+
+} {} {}} /home/enzo/Documents/risc-cpu/src/decoder.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/enzo/Documents/risc-cpu/src/decoder.vhd
+Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity decoder
+-- Compiling architecture Behavioral of decoder
+-- Compiling entity decoder_tb
+-- Compiling architecture Behavioral of decoder_tb
+-- Loading entity decoder
+
+} {} {}} /home/enzo/Documents/risc-cpu/src/pipeline.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/enzo/Documents/risc-cpu/src/pipeline.vhd
+Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity pipeline
+-- Compiling architecture pipeline_a of pipeline
+** Warning: /home/enzo/Documents/risc-cpu/src/pipeline.vhd(36): (vcom-1937) Choice in CASE statement alternative must be locally static.
+** Warning: /home/enzo/Documents/risc-cpu/src/pipeline.vhd(39): (vcom-1937) Choice in CASE statement alternative must be locally static.
+** Warning: /home/enzo/Documents/risc-cpu/src/pipeline.vhd(42): (vcom-1937) Choice in CASE statement alternative must be locally static.
+** Warning: /home/enzo/Documents/risc-cpu/src/pipeline.vhd(51): (vcom-1937) Choice in CASE statement alternative must be locally static.
+** Warning: /home/enzo/Documents/risc-cpu/src/pipeline.vhd(54): (vcom-1937) Choice in CASE statement alternative must be locally static.
+
+} {} {}} /home/enzo/Documents/risc-cpu/src/seg7.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/enzo/Documents/risc-cpu/src/seg7.vhd
+Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity seg7
+-- Compiling architecture Behavioral of seg7
+
+} {} {}}

@@ -1,0 +1,1101 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/enzo/Documents/risc-cpu
+T_opt
+!s110 1738694657
+Vz_5ZX@G_0;QdX=TNKgTAI1
+04 6 10 work alu_tb behavioral 1
+=1-000ae431a4f1-67a26000-eadac-4aa87
+Z2 !s124 OEM10U2 
+Z3 o-quiet -auto_acc_if_foreign -work work +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.2;73
+R1
+T_opt1
+!s110 1738701838
+VI^:7<1aUD[oZigB3OWI6O3
+04 3 10 work cpu behavioral 1
+=25-000ae431a4f1-67a27c0d-d716f-4bbdd
+!s124 OEM10U18 
+R3
+R4
+n@_opt1
+R5
+T_opt2
+!s110 1738696081
+VD>6zh53feN_9[N^Qkj@dl0
+04 10 10 work decoder_tb behavioral 1
+=1-000ae431a4f1-67a26591-ba0af-4b4c8
+R2
+R3
+R4
+n@_opt2
+R5
+R1
+Ealu
+Z6 w1738694507
+Z7 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 702
+Z10 d/home/enzo/Documents/risc-cpu/sim
+Z11 8/home/enzo/Documents/risc-cpu/src/alu.vhd
+Z12 F/home/enzo/Documents/risc-cpu/src/alu.vhd
+l0
+L6 1
+VT7lS_7Ei0ORA:NTHgV;K63
+!s100 =9BPaQ7E7h:P]emXS=o>]1
+Z13 OL;C;2021.2;73
+32
+Z14 !s110 1738701831
+!i10b 1
+Z15 !s108 1738701831.000000
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/enzo/Documents/risc-cpu/src/alu.vhd|
+Z17 !s107 /home/enzo/Documents/risc-cpu/src/alu.vhd|
+!i113 0
+Z18 o-work work -2002 -explicit
+Z19 tExplicit 1 CvgOpt 0
+Abehavioral
+R7
+R8
+R9
+Z20 DEx4 work 3 alu 0 22 T7lS_7Ei0ORA:NTHgV;K63
+!i122 702
+l24
+L22 73
+VjW92JlCz:j@aOi50N5HbD1
+!s100 KlH@CSfo=6I?_@IGB`9UR0
+R13
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Aalu_a
+R7
+R8
+R9
+DEx4 work 3 alu 0 22 iUBQ=DCQ;1Dkfbl[k3>;@3
+!i122 48
+l25
+L23 75
+VO66S56gQRkz6`a1P:knf51
+!s100 oJob83CQ:cADGBGcDO5Y>0
+R13
+32
+Z21 !s110 1737913110
+!i10b 1
+!s108 1737913109.000000
+R16
+R17
+!i113 0
+R18
+R19
+w1737817287
+Ealu_tb
+R6
+R7
+R8
+R9
+!i122 702
+R10
+R11
+R12
+l0
+L100 1
+V:@AWBo0N0aRgf4bl>98]>0
+!s100 S`C3b5]@nAef6JV[CD;b<2
+R13
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Abehavioral
+R20
+R7
+R8
+R9
+DEx4 work 6 alu_tb 0 22 :@AWBo0N0aRgf4bl>98]>0
+!i122 702
+l118
+L103 104
+V_UMY^oJdLR_Bi2@?OAjhc1
+!s100 :Q6bQ1dDE]of`PD1g;_UV0
+R13
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Ecpu
+Z22 w1738701813
+R7
+R8
+R9
+!i122 711
+R10
+Z23 8/home/enzo/Documents/risc-cpu/src/cpu.vhd
+Z24 F/home/enzo/Documents/risc-cpu/src/cpu.vhd
+l0
+L8 1
+VTaaa[>]09Bz^9Y3jb[o?b3
+!s100 KJETicGV0]QA[Lj<IH8IU3
+R13
+32
+Z25 !s110 1738701832
+!i10b 1
+Z26 !s108 1738701832.000000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/enzo/Documents/risc-cpu/src/cpu.vhd|
+Z28 !s107 /home/enzo/Documents/risc-cpu/src/cpu.vhd|
+!i113 0
+R18
+R19
+Abehavioral
+R7
+R8
+R9
+DEx4 work 3 cpu 0 22 Taaa[>]09Bz^9Y3jb[o?b3
+!i122 711
+l234
+L26 374
+V5_CSgRZgEj4z6aO_5mX9a0
+!s100 =CB0NagF[?OB83n>a=ik21
+R13
+32
+R25
+!i10b 1
+R26
+R27
+R28
+!i113 0
+R18
+R19
+Abdf_type
+R7
+R8
+R9
+DEx4 work 3 cpu 0 22 cA4]MmnfOkTMMYFzXzHC83
+!i122 23
+l228
+L29 350
+VRijzbVg<G8UhVLGZNYiAg3
+!s100 Fz<7neT`o2FFdRflWH0j;0
+R13
+32
+!s110 1737911942
+!i10b 1
+!s108 1737911942.000000
+R27
+R28
+!i113 0
+R18
+R19
+w1737911904
+Edecoder
+Z29 w1738701592
+R7
+R8
+R9
+!i122 703
+R10
+Z30 8/home/enzo/Documents/risc-cpu/src/decoder.vhd
+Z31 F/home/enzo/Documents/risc-cpu/src/decoder.vhd
+l0
+L6 1
+V>C=KS1;YA8ho6NlPo]?nQ3
+!s100 z<KM6LOaU@=GN>ebhIoba1
+R13
+32
+R25
+!i10b 1
+R15
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/enzo/Documents/risc-cpu/src/decoder.vhd|
+Z33 !s107 /home/enzo/Documents/risc-cpu/src/decoder.vhd|
+!i113 0
+R18
+R19
+Abehavioral
+R7
+R8
+R9
+Z34 DEx4 work 7 decoder 0 22 >C=KS1;YA8ho6NlPo]?nQ3
+!i122 703
+l46
+L44 237
+Vb859<[mW[9N[LSULVUd?;2
+!s100 [OnPNEFgzRa[;5igPJ5N>3
+R13
+32
+R25
+!i10b 1
+R15
+R32
+R33
+!i113 0
+R18
+R19
+Adecoder_a
+R7
+R8
+R9
+DEx4 work 7 decoder 0 22 5QW0G_WeR_;jDbbZ?_Gnf0
+!i122 49
+l42
+L40 205
+VgTbcbKQ82_P[27DAJU9?53
+!s100 YoaY`=TYb[=@fVS1SE^2?3
+R13
+32
+R21
+!i10b 1
+Z35 !s108 1737913110.000000
+R32
+R33
+!i113 0
+R18
+R19
+w1737821034
+Edecoder_tb
+R29
+R7
+R8
+R9
+!i122 703
+R10
+R30
+R31
+l0
+L286 1
+V52CEXf=PaiP`AK<jIP<U30
+!s100 J85nBeClL`Vga>5fAPZ@33
+R13
+32
+R25
+!i10b 1
+R15
+R32
+R33
+!i113 0
+R18
+R19
+Abehavioral
+R34
+R7
+R8
+R9
+DEx4 work 10 decoder_tb 0 22 52CEXf=PaiP`AK<jIP<U30
+!i122 703
+l322
+L289 97
+VEjfO1TW7gC>PH1RE_:ICM2
+!s100 ?VF@J`1l3KUGm`RLG1L:c2
+R13
+32
+R25
+!i10b 1
+R15
+R32
+R33
+!i113 0
+R18
+R19
+Edig2dec
+Z36 w1737999902
+R7
+R8
+R9
+!i122 704
+R10
+Z37 8/home/enzo/Documents/risc-cpu/src/dig2dec.vhd
+Z38 F/home/enzo/Documents/risc-cpu/src/dig2dec.vhd
+l0
+L6 1
+Ve`Yiek0>4RGLI`B9U;kAg2
+!s100 >VN:P5fJmbdP0b>64_9E70
+R13
+32
+R25
+!i10b 1
+R26
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/enzo/Documents/risc-cpu/src/dig2dec.vhd|
+Z40 !s107 /home/enzo/Documents/risc-cpu/src/dig2dec.vhd|
+!i113 0
+R18
+R19
+Abehavioral
+R7
+R8
+R9
+DEx4 work 7 dig2dec 0 22 e`Yiek0>4RGLI`B9U;kAg2
+!i122 704
+l22
+L20 65
+VXTRSEONWODJk]AkBToIJi3
+!s100 7UgGCae50gd3j>K9mOPBR0
+R13
+32
+R25
+!i10b 1
+R26
+R39
+R40
+!i113 0
+R18
+R19
+Artl
+R7
+R8
+R9
+DEx4 work 7 dig2dec 0 22 WBEYGgGD_hbkDJ5FNRkXL1
+!i122 50
+l22
+L20 54
+VXbVN]b]F9Wh04cHVka3WX2
+!s100 AMaX<^6I788@aPBi@E@[K1
+R13
+32
+R21
+!i10b 1
+R35
+R39
+R40
+!i113 0
+R18
+R19
+w1737664383
+Efetch
+Z41 w1737920190
+R7
+R8
+R9
+!i122 268
+R10
+Z42 8/home/enzo/Documents/risc-cpu/src/fetch.vhd
+Z43 F/home/enzo/Documents/risc-cpu/src/fetch.vhd
+l0
+L6 1
+V8f42gR_ai1Vkk`fIb3CiQ1
+!s100 AGmDS^DM;h4gHZ<HXPBND0
+R13
+32
+Z44 !s110 1737930943
+!i10b 1
+Z45 !s108 1737930943.000000
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/enzo/Documents/risc-cpu/src/fetch.vhd|
+Z47 !s107 /home/enzo/Documents/risc-cpu/src/fetch.vhd|
+!i113 0
+R18
+R19
+Abehavioral
+R7
+R8
+R9
+DEx4 work 5 fetch 0 22 8f42gR_ai1Vkk`fIb3CiQ1
+!i122 268
+l24
+Z48 L20 25
+V^E?4i3gW9Zf360B:G0QIi2
+!s100 R>5DeY9j<WOocbiVM]07b0
+R13
+32
+R44
+!i10b 1
+R45
+R46
+R47
+!i113 0
+R18
+R19
+Afetch_a
+R7
+R8
+R9
+DEx4 work 5 fetch 0 22 6WT8>d47nOj`^g6neVc4]2
+!i122 51
+l22
+L18 25
+VR1OJL@hklGYSEH^hI41gT1
+!s100 mOJFHAHT[[B]>DLFOWaSi0
+R13
+32
+R21
+!i10b 1
+R35
+R46
+R47
+!i113 0
+R18
+R19
+w1737816904
+Eflipflop_rw
+Z49 w1738701259
+R7
+R8
+R9
+!i122 714
+R10
+Z50 8/home/enzo/Documents/risc-cpu/src/flip_flop.vhd
+Z51 F/home/enzo/Documents/risc-cpu/src/flip_flop.vhd
+l0
+L6 1
+VbDYY=afP_hB[IDE>mafLF1
+!s100 QoQ1F`3O19ak7lL<C^XhI3
+R13
+32
+R25
+!i10b 1
+R26
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/enzo/Documents/risc-cpu/src/flip_flop.vhd|
+Z53 !s107 /home/enzo/Documents/risc-cpu/src/flip_flop.vhd|
+!i113 0
+R18
+R19
+Abehavioral
+R7
+R8
+R9
+DEx4 work 11 flipflop_rw 0 22 bDYY=afP_hB[IDE>mafLF1
+!i122 714
+l24
+L22 19
+VYd@4HzRJTdA4];]Jfz:h91
+!s100 =?_Um0M0ij3beR9hHA8z=3
+R13
+32
+R25
+!i10b 1
+R26
+R52
+R53
+!i113 0
+R18
+R19
+Epcounter
+Z54 w1738694048
+R7
+R8
+R9
+!i122 713
+R10
+Z55 8/home/enzo/Documents/risc-cpu/src/pcounter.vhd
+Z56 F/home/enzo/Documents/risc-cpu/src/pcounter.vhd
+l0
+L6 1
+V[amUPmbj95MzLT^bdbXlE0
+!s100 o5FMdmoBKCiTQVz;iE37g3
+R13
+32
+R25
+!i10b 1
+R26
+Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/enzo/Documents/risc-cpu/src/pcounter.vhd|
+Z58 !s107 /home/enzo/Documents/risc-cpu/src/pcounter.vhd|
+!i113 0
+R18
+R19
+Abehavioral
+R7
+R8
+R9
+Z59 DEx4 work 8 pcounter 0 22 [amUPmbj95MzLT^bdbXlE0
+!i122 713
+l24
+R48
+VKlFC<fQM?hFQk;mLgij@I0
+!s100 X?Zz1eCkF>n_4j3E[E5SN1
+R13
+32
+R25
+!i10b 1
+R26
+R57
+R58
+!i113 0
+R18
+R19
+Epcounter_tb
+R54
+R7
+R8
+R9
+!i122 713
+R10
+R55
+R56
+l0
+L50 1
+V`ec=JlVK2E>MWKmAKnnA=1
+!s100 <k7Nk<^VAg2QWVlZ[FM;11
+R13
+32
+R25
+!i10b 1
+R26
+R57
+R58
+!i113 0
+R18
+R19
+Abehavioral
+R59
+R7
+R8
+R9
+DEx4 work 11 pcounter_tb 0 22 `ec=JlVK2E>MWKmAKnnA=1
+!i122 713
+l66
+L53 75
+VZD<5mlg;X9OgkYl8fHTgT1
+!s100 YmHWcPAzo_M2:eKN?NQ2^3
+R13
+32
+R25
+!i10b 1
+R26
+R57
+R58
+!i113 0
+R18
+R19
+Epipeline
+Z60 w1738701412
+R7
+R8
+R9
+!i122 705
+R10
+Z61 8/home/enzo/Documents/risc-cpu/src/pipeline.vhd
+Z62 F/home/enzo/Documents/risc-cpu/src/pipeline.vhd
+l0
+L6 1
+VWi2_Z`G;8[9gbNVnm5m:D2
+!s100 b5gMcXk=a^c?h?>Mb_:>n0
+R13
+32
+R25
+!i10b 1
+R26
+Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/enzo/Documents/risc-cpu/src/pipeline.vhd|
+Z64 !s107 /home/enzo/Documents/risc-cpu/src/pipeline.vhd|
+!i113 0
+R18
+R19
+Apipeline_a
+R7
+R8
+R9
+DEx4 work 8 pipeline 0 22 Wi2_Z`G;8[9gbNVnm5m:D2
+!i122 705
+l27
+L25 45
+Vj?1:OH0[aL1dXXJ7d>Y8@0
+!s100 Whj05h16F780JJ[YkJHYK2
+R13
+32
+R25
+!i10b 1
+R26
+R63
+R64
+!i113 0
+R18
+R19
+Eram
+Z65 w1738698894
+R7
+R8
+R9
+!i122 706
+R10
+Z66 8/home/enzo/Documents/risc-cpu/src/ram.vhd
+Z67 F/home/enzo/Documents/risc-cpu/src/ram.vhd
+l0
+L6 1
+V?d9N`]HZPMh5]d7S1Kfm;2
+!s100 V53TjdP2`<K1RW[D7lemH2
+R13
+32
+R25
+!i10b 1
+R26
+Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/enzo/Documents/risc-cpu/src/ram.vhd|
+Z69 !s107 /home/enzo/Documents/risc-cpu/src/ram.vhd|
+!i113 0
+R18
+R19
+Abehavioral
+R7
+R8
+R9
+DEx4 work 3 ram 0 22 ?d9N`]HZPMh5]d7S1Kfm;2
+!i122 706
+l27
+L21 29
+Vd1XF5D@I5k<LZQG3Tmkk[3
+!s100 8;Lalj?nna_`2CDnfXMV21
+R13
+32
+R25
+!i10b 1
+R26
+R68
+R69
+!i113 0
+R18
+R19
+Aram_a
+R7
+R8
+R9
+DEx4 work 3 ram 0 22 `bYS`C::g9IXemcY97`Bh1
+!i122 53
+l28
+L22 24
+VQba7azez>im5n;mBzQ11^3
+!s100 b_V@?LV8l4jX=i7Rc:KSD0
+R13
+32
+R21
+!i10b 1
+R35
+R68
+R69
+!i113 0
+R18
+R19
+w1737912199
+Ereg
+Z70 w1738698370
+R7
+R8
+R9
+!i122 707
+R10
+Z71 8/home/enzo/Documents/risc-cpu/src/reg.vhd
+Z72 F/home/enzo/Documents/risc-cpu/src/reg.vhd
+l0
+L6 1
+V^m2SdM`lXKLQfVH4lYUF73
+!s100 _BFQnfmcZINAAP1B^eT;d1
+R13
+32
+R25
+!i10b 1
+R26
+Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/enzo/Documents/risc-cpu/src/reg.vhd|
+Z74 !s107 /home/enzo/Documents/risc-cpu/src/reg.vhd|
+!i113 0
+R18
+R19
+Abehavioral
+R7
+R8
+R9
+Z75 DEx4 work 3 reg 0 22 ^m2SdM`lXKLQfVH4lYUF73
+!i122 707
+l32
+L26 35
+VCDemTY>;BlI?8R34`9cmh2
+!s100 hbdhlAOSD>RzcMfI3XneB3
+R13
+32
+R25
+!i10b 1
+R26
+R73
+R74
+!i113 0
+R18
+R19
+Areg_a
+R7
+R8
+R9
+DEx4 work 3 reg 0 22 AH4eD]cTm_4G;Ii=n3YG81
+!i122 54
+l32
+L26 29
+VOl]XZNKT?^]_c7CJe:G[F3
+!s100 V?kY2e`hW;dRoai<W0^TR1
+R13
+32
+R21
+!i10b 1
+R35
+R73
+R74
+!i113 0
+R18
+R19
+w1737912239
+Ereg_tb
+R70
+R7
+R8
+R9
+!i122 707
+R10
+R71
+R72
+l0
+L66 1
+VEW`G;jc28MW39bG6^0ZXd3
+!s100 m6ZCj7QIOV<ako`6AAnL]3
+R13
+32
+R25
+!i10b 1
+R26
+R73
+R74
+!i113 0
+R18
+R19
+Abehavioral
+R75
+R7
+R8
+R9
+DEx4 work 6 reg_tb 0 22 EW`G;jc28MW39bG6^0ZXd3
+!i122 707
+l86
+L69 89
+V24F^RV^h51Ub[GbP:T:9;3
+!s100 aYLOdA:Ec6C]l8bmDW;za2
+R13
+32
+R25
+!i10b 1
+R26
+R73
+R74
+!i113 0
+R18
+R19
+Erom
+Z76 w1738691334
+R7
+R8
+R9
+!i122 708
+R10
+Z77 8/home/enzo/Documents/risc-cpu/src/rom.vhd
+Z78 F/home/enzo/Documents/risc-cpu/src/rom.vhd
+l0
+L6 1
+Ve`;8mAW<H1W=N8o1o_6PT1
+!s100 o;OSYP:[j:R8UQ732d>Re0
+R13
+32
+R25
+!i10b 1
+R26
+Z79 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/enzo/Documents/risc-cpu/src/rom.vhd|
+Z80 !s107 /home/enzo/Documents/risc-cpu/src/rom.vhd|
+!i113 0
+R18
+R19
+Abehavioral
+R7
+R8
+R9
+DEx4 work 3 rom 0 22 e`;8mAW<H1W=N8o1o_6PT1
+!i122 708
+l370
+L20 365
+VAHG07L9B]:fH@XV5`V`k60
+!s100 `<;;HHXal=[<7j]bV<@ia2
+R13
+32
+R25
+!i10b 1
+R26
+R79
+R80
+!i113 0
+R18
+R19
+Arom_a
+R7
+R8
+R9
+DEx4 work 3 rom 0 22 9hZbP76@872fMCTz_b0mL3
+!i122 55
+l127
+L20 122
+VlRIk5nTaP;Uk<4<7gbg=10
+!s100 P4hU<b[aYUn9M07@;_HQN0
+R13
+32
+R21
+!i10b 1
+R35
+R79
+R80
+!i113 0
+R18
+R19
+w1737912616
+Escreen
+Z81 w1737975463
+R7
+R8
+R9
+!i122 709
+R10
+Z82 8/home/enzo/Documents/risc-cpu/src/screen.vhd
+Z83 F/home/enzo/Documents/risc-cpu/src/screen.vhd
+l0
+L6 1
+VN=3g=3@S4QeEWG[2kIk]z3
+!s100 l61:][>7J`?Ff;fU878Ph0
+R13
+32
+R25
+!i10b 1
+R26
+Z84 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/enzo/Documents/risc-cpu/src/screen.vhd|
+Z85 !s107 /home/enzo/Documents/risc-cpu/src/screen.vhd|
+!i113 0
+R18
+R19
+Abehavioral
+R7
+R8
+R9
+DEx4 work 6 screen 0 22 N=3g=3@S4QeEWG[2kIk]z3
+!i122 709
+l58
+L21 109
+VR?JJ99c=bIVGKBmS>Lea71
+!s100 T_bJkGO9CNc?dekn?O4OB1
+R13
+32
+R25
+!i10b 1
+R26
+R84
+R85
+!i113 0
+R18
+R19
+Ascreen_a
+R7
+R8
+R9
+DEx4 work 6 screen 0 22 d3FhcWCUanS8N6aG0FElg1
+!i122 32
+l61
+L22 111
+V0YT]91_QJ]6LQnghS:0Hm0
+!s100 >VI0G0S]K^lazWzEPN2mC1
+R13
+32
+!s110 1737912372
+!i10b 1
+Z86 !s108 1737912372.000000
+R84
+R85
+!i113 0
+R18
+R19
+w1737663721
+Eseg7
+R81
+R7
+R8
+R9
+!i122 712
+R10
+Z87 8/home/enzo/Documents/risc-cpu/src/seg7.vhd
+Z88 F/home/enzo/Documents/risc-cpu/src/seg7.vhd
+l0
+L6 1
+Vd9iDzOkWGELc^Fnz@5XLk0
+!s100 b5JzCChR7[kUXFE0X^gNK1
+R13
+32
+R25
+!i10b 1
+R26
+Z89 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/enzo/Documents/risc-cpu/src/seg7.vhd|
+Z90 !s107 /home/enzo/Documents/risc-cpu/src/seg7.vhd|
+!i113 0
+R18
+R19
+Abehavioral
+R7
+R8
+R9
+DEx4 work 4 seg7 0 22 d9iDzOkWGELc^Fnz@5XLk0
+!i122 712
+l15
+L14 42
+Vb:m4S@IT^@AgQX?R?[5@T3
+!s100 U[o8PL3;;8;QnE23ONCmD2
+R13
+32
+R25
+!i10b 1
+R26
+R89
+R90
+!i113 0
+R18
+R19
+Eseg7_lut
+Z91 w1737663627
+R7
+R8
+R9
+!i122 33
+R10
+Z92 8/home/enzo/Documents/risc-cpu/src/seg7_lut.vhd
+Z93 F/home/enzo/Documents/risc-cpu/src/seg7_lut.vhd
+l0
+L6 1
+V52czgf]nGF]F]]YmHBERc1
+!s100 2BjQ>5mUaJAe=@MRVcO^b1
+R13
+32
+Z94 !s110 1737912373
+!i10b 1
+R86
+Z95 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/enzo/Documents/risc-cpu/src/seg7_lut.vhd|
+Z96 !s107 /home/enzo/Documents/risc-cpu/src/seg7_lut.vhd|
+!i113 0
+R18
+R19
+Artl
+R7
+R8
+R9
+DEx4 work 8 seg7_lut 0 22 52czgf]nGF]F]]YmHBERc1
+!i122 33
+l16
+L15 42
+VkNbT4];gJ<GXTLn15YIWl1
+!s100 HRmIZM3BM;64b:XLag7FA1
+R13
+32
+R94
+!i10b 1
+R86
+R95
+R96
+!i113 0
+R18
+R19
+Estatus
+R81
+R7
+R8
+R9
+!i122 710
+R10
+Z97 8/home/enzo/Documents/risc-cpu/src/status.vhd
+Z98 F/home/enzo/Documents/risc-cpu/src/status.vhd
+l0
+L6 1
+V?T_[:`=MIkgZWRgk]f=Q43
+!s100 jVK=ak4FAFaIF]iF]4>>61
+R13
+32
+R25
+!i10b 1
+R26
+Z99 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/enzo/Documents/risc-cpu/src/status.vhd|
+Z100 !s107 /home/enzo/Documents/risc-cpu/src/status.vhd|
+!i113 0
+R18
+R19
+Astatus_a
+R7
+R8
+R9
+DEx4 work 6 status 0 22 ?T_[:`=MIkgZWRgk]f=Q43
+!i122 710
+l21
+L19 18
+VgDk];URO1GfENaCZ?PHiS0
+!s100 e=o`5S4Z?zY7YI59UVjDc1
+R13
+32
+R25
+!i10b 1
+R26
+R99
+R100
+!i113 0
+R18
+R19

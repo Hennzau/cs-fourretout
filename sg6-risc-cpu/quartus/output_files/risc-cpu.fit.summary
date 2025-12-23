@@ -1,0 +1,18 @@
+Fitter Status : Successful - Wed Jan 29 11:58:09 2025
+Quartus Prime Version : 21.1.0 Build 842 10/21/2021 SJ Lite Edition
+Revision Name : risc-cpu
+Top-level Entity Name : cpu
+Family : MAX 10
+Device : 10M50DAF484C6GES
+Timing Models : Preliminary
+Total logic elements : 704 / 49,760 ( 1 % )
+    Total combinational functions : 679 / 49,760 ( 1 % )
+    Dedicated logic registers : 178 / 49,760 ( < 1 % )
+Total registers : 178
+Total pins : 71 / 360 ( 20 % )
+Total virtual pins : 0
+Total memory bits : 8,704 / 1,677,312 ( < 1 % )
+Embedded Multiplier 9-bit elements : 1 / 288 ( < 1 % )
+Total PLLs : 0 / 4 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )
